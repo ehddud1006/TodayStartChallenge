@@ -1,13 +1,13 @@
 import { css } from '@emotion/react';
 
-import AppleSDGothicNeoM from '@/assets/font/AppleSDGothicNeoM.ttf';
+import SfPro from '@/assets/font/SfPro.ttf';
 
 import theme from './theme';
 
 const globalStyle = css`
   @font-face {
-    font-family: 'AppleSDGothicNeoM';
-    src: url(${AppleSDGothicNeoM}) format('ttf');
+    font-family: 'SfPro';
+    src: url(${SfPro}) format('ttf');
   }
 
   * {
@@ -17,7 +17,7 @@ const globalStyle = css`
 
     box-sizing: border-box;
 
-    font-family: 'AppleSDGothicNeoM', sans-serif;
+    font-family: 'SfPro', sans-serif;
 
     color: inherit;
 
