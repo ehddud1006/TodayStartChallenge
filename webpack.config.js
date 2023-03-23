@@ -17,7 +17,7 @@ module.exports = (env, args) => {
         directory: path.join(__dirname, 'build'),
       },
       compress: true,
-      port: 3003,
+      port: 3002,
       historyApiFallback: true,
       host: 'localhost',
     },
@@ -42,9 +42,7 @@ module.exports = (env, args) => {
               ],
               env: {
                 development: {
-                  plugins: [isDevelopment && require.resolve('react-refresh/babel')].filter(
-                    Boolean
-                  ),
+                  plugins: [isDevelopment && require.resolve('react-refresh/babel')].filter(Boolean),
                 },
               },
               plugins: ['@emotion/babel-plugin'],
@@ -52,7 +50,7 @@ module.exports = (env, args) => {
           },
         },
         {
-          test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|webp|webm|mp4)$/i,
+          test: /\.(eot|svg|ttf|woff|woff2|png|jpg|jpeg|gif|webp|webm|mp4)$/i,
           type: 'asset/resource',
         },
       ],
