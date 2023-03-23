@@ -9,7 +9,8 @@ const colors = {
 
   grey_5: '#4a4c4e',
   grey_4: '#555',
-  grey_1: '#F6F6FA',
+  grey_2: '#F6F6FA',
+  grey_1: '#e6e6e6',
   grey_0: '#dbdcdc',
 
   blue_5: '#0000FF', // blue
@@ -17,7 +18,12 @@ const colors = {
   blue_3: '#025bb1',
   blue_2: '#0d84ea',
 
+  orange_2: '#fdbc40',
+
+  green_2: '#35cd4b',
+
   red_4: '#FF0000', // red
+  red_2: '#fc625d',
 
   black_4: '#000000',
   black_2: '#212529',
@@ -34,6 +40,7 @@ const colors = {
 const screenSize = {
   sm: '576px',
   md: '768px',
+  lg: '992px',
 };
 
 const size = {
