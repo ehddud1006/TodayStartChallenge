@@ -78,7 +78,10 @@ export const PeopleCount = styled.span`
   font-size: 13px;
 `;
 
-export const Title = styled.h1``;
+export const Title = styled.h1`
+  font-size: 18px;
+  font-weight: normal;
+`;
 
 export const IconContainer = styled.div`
   display: flex;

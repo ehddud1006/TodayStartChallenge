@@ -17,7 +17,8 @@ const globalStyle = css`
 
     box-sizing: border-box;
 
-    font: inherit;
+    font-family: 'AppleSDGothicNeoM', sans-serif;
+
     color: inherit;
 
     flex-shrink: 0;
@@ -31,7 +32,6 @@ const globalStyle = css`
     letter-spacing: -0.025rem;
 
     font-size: ${theme.size[16]};
-    font-family: 'AppleSDGothicNeoM', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
