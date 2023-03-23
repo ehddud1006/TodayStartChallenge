@@ -1,5 +1,6 @@
 {
   "packageManager": "yarn@3.4.1",
+  "homepage": "https://ehddud1006.github.io/TodayStartChallenge",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --progress --mode production",
@@ -52,6 +53,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-storybook": "^0.5.13",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "pnp-webpack-plugin": "^1.7.0",
     "prettier": "^2.7.1",
