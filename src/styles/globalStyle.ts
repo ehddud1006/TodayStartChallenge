@@ -27,7 +27,6 @@ const globalStyle = css`
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    color: ${theme.colors.black_1};
   }
 
   a {
