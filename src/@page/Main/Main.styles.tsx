@@ -217,4 +217,5 @@ export const ChatImage = styled.img`
   margin-top: 7px;
 
   border-radius: 3px;
+  object-fit: cover;
 `;
